@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to normalize phone number
     function normalizePhoneNumber(phoneStr) {
-        return phoneStr.replace(/[\s\-\(\)\.\+]/g, '');
+        return phoneStr.replace(/[\s\-\(\)\.\+\/]/g, '');
     }
 
     // Function to format timestamp

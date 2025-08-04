@@ -16,7 +16,7 @@
 
     // Function to normalize phone number (remove spaces, dashes, etc.)
     function normalizePhoneNumber(phoneStr) {
-        return phoneStr.replace(/[\s\-\(\)\.\+]/g, '');
+        return phoneStr.replace(/[\s\-\(\)\.\+\/]/g, '');
     }
 
     // Function to check if a phone number is valid
