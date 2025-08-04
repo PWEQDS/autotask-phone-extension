@@ -1,0 +1,21 @@
+# Ignore temporary files
+/tmp/
+*.tmp
+*.log
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts that might be generated
+dist/
+build/
+
+# Keep the SVG source but it's optional
+# icons/icon.svg
