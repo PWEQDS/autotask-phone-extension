@@ -1,0 +1,35 @@
+{
+  "name": "autotask-agfeo-phone-extension",
+  "version": "1.0.0",
+  "description": "Chrome Extension für Telefon-Integration mit Autotask/Datto und AGFEO - Click-to-Call Funktionalität",
+  "main": "manifest.json",
+  "scripts": {
+    "test": "node test/validate-extension.js",
+    "dev": "python3 -m http.server 8080",
+    "build": "echo 'No build process needed for Chrome extension'",
+    "lint": "echo 'Linting not configured'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PWEQDS/autotask-phone-extension.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "agfeo",
+    "autotask",
+    "datto",
+    "phone",
+    "click-to-call",
+    "tksuite"
+  ],
+  "author": "PWEQDS",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "browser": {
+    "chrome": ">=88.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
